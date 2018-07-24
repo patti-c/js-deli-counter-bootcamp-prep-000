@@ -5,19 +5,16 @@ var i = 1;
 function takeANumber(katzDeli) {
   katzDeli.push(i);
   i++;
-  console.log(katzDeli);
-  console.log(i);
   return `Welcome, you are ticket number ${katzDeli.length} in line.`;
 }
 
 console.log(takeANumber(katzDeli));
-takeANumber(katzDeli);
+console.log(takeANumber(katzDeli));
 
 function nowServing(katzDeli) {
   if(katzDeli.length === 0) {
     return 'There is nobody waiting to be served!';
   } else {
-    console.log()
     return `Currently serving ${katzDeli.shift()}.`;
   }
 }
