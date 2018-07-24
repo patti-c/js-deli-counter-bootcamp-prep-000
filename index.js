@@ -7,11 +7,10 @@ function takeANumber(katzDeli) {
   i++;
   console.log(katzDeli);
   console.log(i);
-  console.log(`Welcome, you are ticket number ${katzDeli.length} in line.`);
   return `Welcome, you are ticket number ${katzDeli.length} in line.`;
 }
 
-takeANumber(katzDeli);
+console.log(takeANumber(katzDeli));
 takeANumber(katzDeli);
 
 function nowServing(katzDeli) {
@@ -23,7 +22,7 @@ function nowServing(katzDeli) {
   }
 }
 
-nowServing(katzDeli);
+console.log(nowServing(katzDeli));
 
 function currentLine(katzDeli) {
   
