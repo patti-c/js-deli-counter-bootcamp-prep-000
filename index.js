@@ -22,7 +22,7 @@ function nowServing(katzDeli) {
   }
 }
 
-
+nowServing(katzDeli);
 
 function currentLine(katzDeli) {
   
