@@ -5,6 +5,7 @@ function takeANumber(katzDeli) {
   katzDeli.push(i);
   i++;
   console.log(katzDeli)
+  console.log(i)
   return `Welcome, you are ticket number ${katzDeli.length} in line.`;
 }
 
