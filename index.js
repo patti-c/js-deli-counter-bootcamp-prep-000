@@ -5,8 +5,9 @@ var i = 1;
 function takeANumber(katzDeli) {
   katzDeli.push(i);
   i++;
-  console.log(katzDeli)
-  console.log(i)
+  console.log(katzDeli);
+  console.log(i);
+  console.log(`Welcome, you are ticket number ${katzDeli.length} in line.`);
   return `Welcome, you are ticket number ${katzDeli.length} in line.`;
 }
 
@@ -20,6 +21,8 @@ function nowServing(katzDeli) {
     return `Currently serving ${katzDeli.shift()}.`;
   }
 }
+
+
 
 function currentLine(katzDeli) {
   
