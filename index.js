@@ -20,6 +20,7 @@ function nowServing(katzDeli) {
 }
 
 console.log(nowServing(katzDeli));
+console.log(takeANumber(katzDeli));
 
 function currentLine(katzDeli) {
   
