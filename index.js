@@ -1,6 +1,6 @@
 var katzDeli = [];
 
-var i = 0;
+var i = 1;
 
 function takeANumber(katzDeli) {
   katzDeli.push(i);
