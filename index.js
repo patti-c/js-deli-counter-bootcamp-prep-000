@@ -10,6 +10,7 @@ function takeANumber(katzDeli) {
 }
 
 takeANumber(katzDeli);
+takeANumber(katzDeli);
 
 function nowServing(katzDeli) {
   if(katzDeli.length === 0) {
