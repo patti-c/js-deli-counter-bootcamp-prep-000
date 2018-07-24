@@ -7,6 +7,8 @@ function takeANumber(katzDeli) {
   return `Welcome, you are ticket number ${katzDeli.length} in line.`;
 }
 
+takeANumber(katzDeli);
+
 function nowServing(katzDeli) {
   if(katzDeli.length === 0) {
     return 'There is nobody waiting to be served!';
